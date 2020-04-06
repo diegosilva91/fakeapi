@@ -1,14 +1,237 @@
 {
-  "home": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "property_type": [
+    {
+      "home":[
+        { 
+          "id": "1",
+          "type": "flat"
+        },
+        { 
+          "id": "2",
+          "type": "house"
+        },
+        { 
+          "id": "3",
+          "type": "duplex"
+        },
+        { 
+          "id": "4",
+          "type": "penthouse" 
+        }  
+      ]
+    },
+    {
+      "office":[
+      {        
+        "id": "5",
+        "type": "private"
+      },
+      {        
+        "id": "6",
+        "type": "coworking"
+      },
+      {        
+        "id": "7",
+        "type": "security"
+      }
+      ]
+    }
   ],
-  "office": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "property_details": [
+    {
+      "home":[
+        {
+          "id":"1",
+          "type": "flat",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "equipment": "Indifferent", 
+          "condition":"New homes",
+          "price": "100000",
+          "description":"Lorem ipsum",
+          "location": "41.39057,2.18047",
+          "filters":["Pets allowed","Air conditioning"],
+          "publication date": "06-04-2020"
+        },
+        {
+          "id":"2",
+          "type": "house",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "equipment": "Indifferent", 
+          "condition":"New homes",
+          "price": "150000",
+          "description":"Lorem ipsum",
+          "location": "41.39057,2.18047",
+          "filters":["Pets allowed","Air conditioning"],
+          "publication date": "06-04-2020"
+        },
+        {
+          "id":"3",
+          "type": "duplex",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "equipment": "Indifferent", 
+          "condition":"Good condition",
+          "price": "200000",
+          "description":"Lorem ipsum",
+          "location": "41.39057,2.18047",
+          "filters":["Pets allowed","Air conditioning", "Terrace"],
+          "publication date": "06-04-2020"
+        },
+        {
+          "id":"4",
+          "type": "penthouse",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "equipment": "Indifferent", 
+          "condition":"Needs renovation",
+          "price": "250000",
+          "description":"Lorem ipsum",
+          "location": "41.39057,2.18047",
+          "filters":["Pets allowed","Air conditioning","Garden","Swimming pool"],
+          "publication date": "06-04-2020"
+        }
+      ],
+      "office":[
+        {
+          "id":"5",
+          "use": "private",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "equipment": "Indifferent", 
+          "condition":"Good condition",
+          "price": "250000",
+          "description":"Lorem ipsum",
+          "location": "41.39057,2.18047",
+          "publication date": "06-04-2020"
+        },
+        {
+          "id":"6",
+          "use": "coworking",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "equipment": "Indifferent", 
+          "condition":"Good condition",
+          "price": "250000",
+          "description":"Lorem ipsum",
+          "location": "41.39057,2.18047",
+          "publication date": "06-04-2020"
+        },
+        {
+          "id":"7",
+          "use": "security",
+          "bedrooms": 4,
+          "bathrooms": 2,
+          "equipment": "Indifferent", 
+          "condition":"Good condition",
+          "price": "250000",
+          "description":"Lorem ipsum",
+          "location": "41.39057,2.18047",
+          "publication date": "06-04-2020"
+        }
+      ]
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "property": [
+    {
+      "home":[
+        {
+          "id":"1",
+          "type": "flat",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "equipment": "Indifferent", 
+          "condition":"New homes"
+        },
+        {
+          "id":"2",
+          "type": "house",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "equipment": "Indifferent", 
+          "condition":"New homes"
+        },
+        {
+          "id":"3",
+          "type": "duplex",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "equipment": "Indifferent", 
+          "condition":"Good condition"
+        },
+        {
+          "id":"4",
+          "type": "penthouse",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "equipment": "Indifferent", 
+          "condition":"Needs renovation"
+        }
+      ],
+      "office":[
+        {
+          "id":"5",
+          "use": "private",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "equipment": "Indifferent", 
+          "condition":"Good condition"
+        },
+        {
+          "id":"6",
+          "use": "coworking",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "equipment": "Indifferent", 
+          "condition":"Good condition"
+        },
+        {
+          "id":"7",
+          "use": "security",
+          "bedrooms": 4,
+          "bathrooms": 2,
+          "equipment": "Indifferent", 
+          "condition":"Good condition"
+        }
+      ]
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "admin_id": "1",
+      "bargain": 0
+    },
+    {
+      "id": 2,
+      "admin_id": "1",
+      "bargain": 0
+    },
+    {
+      "id": 3,
+      "admin_id": "1",
+      "bargain": 1
+    },
+    {
+      "id": 4,
+      "admin_id": "1",
+      "bargain": 1
+    },
+    {
+      "id": 5,
+      "admin_id": "1",
+      "bargain": 0
+    },
+    {
+      "id": 6,
+      "admin_id": "1",
+      "bargain": 1
+    },
+    {
+      "id": 7,
+      "admin_id": "1",
+      "bargain": 0
+    }
+  ]
 }
